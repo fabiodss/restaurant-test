@@ -1,5 +1,5 @@
 <h1 align="center">Restaurant Test</h1> 
-<blockquote align="center">Este é um projeto baseado em EXPO React Native desenvolvido para teste.</blockquote>
+<blockquote align="center">Este é um projeto desenvolvido em EXPO React Native desenvolvido para teste.</blockquote>
 </p>
 <p align="center">
    <img src="https://i.ibb.co/HgJrHKz/prints.jpg" width="100%" style="max-width:100%;margin-top:30px;" />
