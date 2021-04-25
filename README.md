@@ -50,19 +50,14 @@ expo build:ios
 ## <a id="structure"></a> ♻️ Estrutura do Projeto
 
 <b>screens</b>
-<p>
-Essa pasta possui os as telas do aplicativo:
+<p>Essa pasta possui os as telas do aplicativo:
 Home: Flatlist com loading a cada 20 itens, inclui campo de busca onde redireciona para tela Search ou pode ir diretamente para visualização das informações de um restaurante.
 Search: Busca em tempo real a cada novo caracter no campo, ao ser aberta é pesquisado o parametro transferido da tela Home, também é possível visualizar informações de um restaurante.
-Info: Informações do objeto obtida através da API Rest. As informações são carregadas previamente ao abrir a tela, pegando os parametros do objeto da tela anterior e atualizados logo em seguida realizando a consulta no servidor pelo ID específico, isso ajuda a diminuir significativamente o tempo de carregamento dessa tela.
-</p>
-<br>
+Info: Informações do objeto obtida através da API Rest. As informações são carregadas previamente ao abrir a tela, pegando os parametros do objeto da tela anterior e atualizados logo em seguida realizando a consulta no servidor pelo ID específico, isso ajuda a diminuir significativamente o tempo de carregamento dessa tela.</p>
 <b>components</b>
 <p>Pasta com componentes a serem importados nas telas e em outros componentes.</p>
-<br>
 <b>src</b>
 <p>Pasta com os principais recursos para estrutura do projeto: gerenciamento de rotas, requisição da API, configuração de URL padrão da API e funções de uso genérico.</p>
-<br>
 <b>styles</b>
 <p>Cores e estilos globais para serem utilizado em todo projeto com o objetivo de manter o padrão e reduzir código.</p>
 
