@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row'
     },
     text: {
-        color: colors.gray,
+        color: colors.dark,
         marginRight: 15,
         fontSize: 14
     }

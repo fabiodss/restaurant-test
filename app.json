@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "challenge",
-    "slug": "challenge",
+    "name": "Restaurant Test",
+    "slug": "restaurant-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

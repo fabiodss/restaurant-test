@@ -50,18 +50,11 @@ export default function Search({ route, navigation }) {
                     <BackButton onPress={() => navigation.goBack()} />
                     <Text style={styles.smallTitle}>Resultados para</Text>
                     <Text style={styles.title}>Termo pesquisado: {search}</Text>
-                    <TouchableOpacity onPress={() => navigation.navigate('Search')}>
-                        <SearchInput placeholder="Encontre um restaurante" changedText={text => searchRestaurant(text)} searchSubmit={()=>{}} />
-                    </TouchableOpacity>
+                    <SearchInput placeholder="Encontre um restaurante" changedText={text => searchRestaurant(text)} searchSubmit={()=>{}} />
                     <Text style={global.sectionTitle}>Restaurantes</Text>
                 </View>
                 <View style={global.list}>
-                    {!loading &&
-                        dataSource
-                    }
-                    {loading &&
-                        <BottomLoading />
-                    }
+                    {!loading ? dataSource : <BottomLoading />}
                 </View>
             </View>
         </ScrollView>
@@ -71,28 +64,26 @@ export default function Search({ route, navigation }) {
 
 const global = require('../styles/global');
 const colors = require('../styles/colors');
-const { width, height } = Dimensions.get('window');
+const { width } = Dimensions.get('window');
 
 const styles = StyleSheet.create({
     main: {
         width: width,
-        marginTop: -27,
-        borderTopLeftRadius: 30,
-        borderTopRightRadius: 30,
         backgroundColor: colors.background,
         padding: 30,
     },
     smallTitle: {
-        color: colors.gray,
+        color: colors.lightDown,
         alignSelf: 'center',
         marginBottom: 5,
-        marginTop: 20
+        marginTop: 10
     },
     title: {
-        color: colors.darkGray,
+        color: colors.darkDown,
         alignSelf: 'center',
         fontSize: 18,
         fontFamily: 'Poppins-Bold',
-        marginBottom: 20
+        marginBottom: 30,
+        textAlign: 'center'
     }
 });

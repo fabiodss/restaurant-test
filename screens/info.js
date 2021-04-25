@@ -34,9 +34,9 @@ export default function Info({ route, navigation }) {
         return <Loading />
     }
     return (
-        <ScrollView style={global.containerSV}>
+        <ScrollView style={global.containerSV} showsVerticalScrollIndicator={false}>
             <ImageBackground style={styles.cover} source={{ uri: restaurant.image }}>
-                <View style={styles.backdrop} />
+                <View style={global.backdrop} />
                 <BackButton onPress={() => navigation.goBack()} color="white" />
             </ImageBackground>
             <View style={global.container}>
@@ -74,12 +74,6 @@ const styles = StyleSheet.create({
         height: height / 4,
         resizeMode: 'cover'
     },
-    backdrop: {
-        width: width,
-        height: height / 4,
-        flex: 1,
-        backgroundColor: 'rgba(0,0,0,0.5)'
-    },
     main: {
         width: width,
         marginTop: -50,
@@ -89,39 +83,37 @@ const styles = StyleSheet.create({
         padding: 30,
     },
     title: {
-        color: colors.darkGray,
+        color: colors.darkDown,
         alignSelf: 'center',
-        fontSize: 24,
-        fontFamily: 'Poppins-Bold',
-        marginTop: 20
+        ...global.h2,
+        marginTop: 15
     },
     sectionTitle: {
         alignSelf: 'flex-start',
-        fontFamily: 'Poppins-Bold',
-        marginTop: 20,
-        fontSize: 16,
-        color: colors.darkGray
+        marginTop: 30,
+        color: colors.darkDown,
+        ...global.h6
     },
     text: {
-        color: colors.gray,
-        fontSize: 13
+        color: colors.lightDown,
+        ...global.small
     },
     logoFrame: {
-        width: 128,
-        height: 128,
-        borderRadius: 64,
+        width: 125,
+        height: 125,
+        borderRadius: 125,
         backgroundColor: colors.white,
         justifyContent: 'center',
         alignItems: 'center',
         alignSelf: 'center',
-        top: -86,
+        top: -95,
         position: 'absolute',
         borderWidth: 5,
         borderColor: colors.brown
     },
     logo: {
-        width: 114,
-        height: 114,
-        borderRadius: 57
+        width: 110,
+        height: 110,
+        borderRadius: 55
     }
 });

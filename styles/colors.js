@@ -3,14 +3,19 @@
 var React = require('react-native');
 
 module.exports = {
-    primary: '#2DBABB',
-    secondary: '#114848',
-    darkGray: '#333333',
-    gray: '#8D8D8D',
+    primary: '#ED1C24',
+    darkDown: '#333333',
+    dark: '#666666',
+    darkUp: '#808080',
     white: '#FFFFFF',
-    brown: '#3F3210',
+    lightDown: '#AAAAAA',
+    light: '#CCCCCC',
+    lightMedium: '#E6E6E6',
+    lightUp: '#F2F2F2',
 
     //Others
+    brown: '#3F3210',
+    gray: '#8D8D8D',
     inactive: '#ACBDD5',
     background: '#FFFFFF',
     blueBg: '#E7EEF0',

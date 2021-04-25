@@ -37,12 +37,12 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         paddingLeft: 50,
         justifyContent: 'center',
-        color: colors.darkGray,
+        color: colors.dark,
         fontSize: 14
     },
     searchIcon: {
         position: 'absolute',
-        left: 15,
+        left: 13,
         top: 13,
         height: 25,
         width: 25,

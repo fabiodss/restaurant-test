@@ -2,7 +2,7 @@
 <blockquote align="center">Este é um projeto desenvolvido utilizando EXPO React Native para teste.</blockquote>
 </p>
 <p align="center">
-   <img src="https://i.ibb.co/HgJrHKz/prints.jpg" width="100%" style="max-width:100%;margin-top:30px;" />
+   <img src="https://i.ibb.co/R40cFr6/prints.jpg" width="100%" style="max-width:100%;margin-top:30px;" />
 </p>
 
 ## 💚 Guia de conteúdo
@@ -71,9 +71,8 @@ expo build:ios
 
 ## <a id="download"></a> 🍏 Download APK
 
-Realize o download do APK da build para Android [Download APK](https://mega.nz/file/gcp00SSY#8wV60cMx7wFw-DEjkrrkKdXI_7Hohk7_bOmTihD1NuE) 
+Realize o download do APK da build para Android [Download APK](https://mega.nz/file/hUIH3IBT#hX1btEJdNrn2e6RH3FdXBTa26VpVhZ69eviofh9cMww) 
 
 <br>
 <br>
 🚀 Desenvolvido por Fábio Silva
- 

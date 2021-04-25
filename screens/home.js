@@ -104,23 +104,22 @@ const styles = StyleSheet.create({
     },
     main: {
         width: width,
-        marginTop: -27,
-        borderTopLeftRadius: 30,
-        borderTopRightRadius: 30,
+        marginTop: -30,
+        borderTopLeftRadius: 32,
+        borderTopRightRadius: 32,
         backgroundColor: colors.background,
         padding: 30,
     },
     title: {
-        fontSize: 24,
-        padding: 20,
-        paddingBottom: 15,
+        padding: 10,
         paddingRight: 100,
-        marginTop: 10,
-        color: colors.darkGray,
-        fontFamily: 'Poppins-Bold'
+        marginTop: 20,
+        color: colors.darkDown,
+        ...global.h2
     },
     subTitle: {
-        fontSize: 18,
-        paddingHorizontal: 20
+        ...global.lead,
+        paddingHorizontal: 10,
+        color: colors.dark
     }
 });
