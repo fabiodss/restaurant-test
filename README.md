@@ -14,7 +14,7 @@
 
 ## <a id="introduction"></a> 🏁 Introdução
 
-Aplicação de listagem de restaurantes com busca e exibição de detalhes utilizando API Rest desenvolvida utilizando EXPO React Native. O EXPO foi escolhido para facilitar atualizações [over the air](https://docs.expo.io/build/updates/).
+Aplicação de listagem de restaurantes com busca e exibição de detalhes utilizando API Rest. A tecnologia do projeto é o React Native com EXPO. O EXPO foi escolhido para facilitar atualizações [over the air](https://docs.expo.io/build/updates/).
 
 ## <a id="install"></a> 🚧 Instalação
 
@@ -71,7 +71,7 @@ expo build:ios
 
 ## <a id="download"></a> 🍏 Download APK
 
-Realize o APK da build para Android [Download APK](https://mega.nz/file/gcp00SSY#8wV60cMx7wFw-DEjkrrkKdXI_7Hohk7_bOmTihD1NuE) 
+Realize o download do APK da build para Android [Download APK](https://mega.nz/file/gcp00SSY#8wV60cMx7wFw-DEjkrrkKdXI_7Hohk7_bOmTihD1NuE) 
 
 <br>
 <br>
