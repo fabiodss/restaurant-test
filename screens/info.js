@@ -35,14 +35,14 @@ export default function Info({ route, navigation }) {
     }
     return (
         <ScrollView style={global.containerSV} showsVerticalScrollIndicator={false}>
-            <ImageBackground style={styles.cover} source={{ uri: restaurant.image }}>
+            <ImageBackground style={styles.cover} source={{ uri: restaurant.image+'?time='+Date() }}>
                 <View style={global.backdrop} />
                 <BackButton onPress={() => navigation.goBack()} color="white" />
             </ImageBackground>
             <View style={global.container}>
                 <View style={styles.main}>
                     <View style={styles.logoFrame}>
-                        <Image source={{ uri: restaurant.logo }} style={styles.logo} />
+                        <Image source={{ uri: restaurant.logo+'?time='+Date() }} style={styles.logo} />
                     </View>
                     <Text style={styles.title}>{restaurant.name}</Text>
                     <Text style={styles.sectionTitle}>Descrição</Text>

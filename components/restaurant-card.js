@@ -4,7 +4,7 @@ import { Text, View, StyleSheet, Image, Dimensions, TouchableOpacity } from 'rea
 const RestaurantCard = ({ logo, name, onPress = () => { } }) => {
     return (
         <TouchableOpacity onPress={onPress} style={styles.card}>
-            <Image source={{ uri: logo }} style={styles.logo} />
+            <Image source={{ uri: logo+'?time='+Date.now() }} style={styles.logo} />
             <View style={styles.backdrop} />
             <Text style={styles.title}>{name}</Text>
         </TouchableOpacity>
